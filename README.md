@@ -81,7 +81,7 @@ add ah bh
 add al,[170]
 <p>Los corchetes en el segundo parámetro nos indican que vamos a trabajar con el contenido de la casilla de memoria número 170 y no con el valor 170, a esto se le conoce como direccionamiento directo</p>
 
-<h1class="heading to-animate"> NUESTRO PRIMER PROGRAMA </h1>
+<h1> NUESTRO PRIMER PROGRAMA </h1>
 
 <p>Vamos a crear un programa que sirva para ilustrar lo que hemos estado viendo, lo que haremos será una suma de dos valores que introduciremos directamente en el programa:</p>
 <h2class="heading to-animate">El primer paso </h2>
