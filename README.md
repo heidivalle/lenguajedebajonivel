@@ -29,8 +29,6 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p> LUEGO ENTRAR AL DOS. </p>
 <p>Y ENTRAR A LA RUTA DONDE ESTÁ GUARDADO EL PROGRAMA QUE ES D:\asm. </p>
 
-
-
 <h2 class="heading to-animate"> 1.	primera compilación usando el masm(Microsoft macro assembler). </h2>
 <h3> Colocamos masm hola; y verificamos que no tenga errores.</h3>
 <p>En este caso vemos que dice 0 severe Errors(0 errores severos) y 0 warning errors(0 errores peligrosos).</p>
@@ -38,15 +36,10 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p> Por último colocamos hola </p>
  <p> Si verifican la carpeta donde está el programa vemos que se crearon dos nuevos archivos</p>
  
- 
- 
- 
- 
-<h3>	COMPILACIÓN CON EL tasm(TURBO ASSEMBLER) </h3>
+ <h3>	COMPILACIÓN CON EL tasm(TURBO ASSEMBLER) </h3>
 <p>Se sigue el mismo procedimiento de la anterior compilación con el masm.</p>
 <p>Solo que en vez de colocar masm se coloca tasm y en vez de link tlink.</p>
- 
-<p>Los warning y errores son los mismos que el masm</p>
+ <p>Los warning y errores son los mismos que el masm</p>
 <p>Las diferencias se los dejo de tarea, pero se darán cuenta que por un pequeñísimo margen el tasm es mejor que el masm por que tiene funcione propias del compilador y ademas nos permite hacer más saltos que para el masm son errores de compilacion.</p>
 <h3>Ejecución usando el emulator 8086. </h3>
 <p>Como siempre se deja lo más fácil al final, el emu8086 es un ide tipo eclipse, codeblock etc para assembler donde primero creamos un programa en blanco seleccionando la parte de NEW.</p>
