@@ -1,7 +1,7 @@
 # lenguajedebajonivel
 
-<h1> CUALQUIER DUDA DEJO EL WORD Y PDF CON IMAGENES </h1>
-<h0> ASSEMBLER IDE 2.0 <h0> 
+<h3> CUALQUIER DUDA DEJO EL WORD Y PDF CON IMAGENES </h3>
+<h0> ASSEMBLER IDE 2.0 </h0> 
  <p>ENLACE PARA DESCARGAR: </p>   https://assembler-ide.programas-gratis.net/
 
 <h2 class="heading to-animate">DEFINICIÓN</h2>
