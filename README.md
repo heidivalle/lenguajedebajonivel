@@ -70,5 +70,5 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p>    IP Registro de apuntador de siguiente instrucción </p>
 <p>    F Registro de banderas</p>
 
-	
+
 
