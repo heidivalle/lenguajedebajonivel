@@ -54,24 +54,21 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p>La UCP tiene 14 registros internos, cada uno de 16 bits. Los primeros cuatro, AX, BX, CX, y DX son registros de uso general y también pueden ser utilizados como registros de 8 bits, para utilizarlos como tales es necesario referirse a ellos como, por ejemplo: AH y AL, que son los bytes alto (high) y bajo (low) del registro AX. Esta nomenclatura es aplicable también a los registros BX, CX y DX.</p>
 <p> Los registros son conocidos por sus nombres específicos: </p>
 
-	<div>
-											<h3>REGISTROS DE USO GENERAL</h3>
-											<p>	AX: Acumulador </p>
-											<p>	BX: Registro base </p>
-											<p>	CX: Registro contador </p>
-											<p> DX: Registro de datos </p>
-           <p>	DS Registro del segmento de datos</p>
-           <p>ES Registro del segmento extra</p>
-           <p> SS Registro del segmento de pila</p>
-           <p> CS Registro del segmento de código</p>
-           <p> BP Registro de apuntadores base</p>
-           <p> SI Registro índice fuente</p>
-           <p> DI Registro índice destino</p>
-           <p> SP Registro del apuntador de la pila</p>
-           <p><p> IP Registro de apuntador de siguiente instrucción</p>
-          <p>  F Registro de banderas</p>
-
-  </div>
+<h3>REGISTROS DE USO GENERAL</h3>
+	AX: Acumulador
+	BX: Registro base 
+	CX: Registro contador 
+	DX: Registro de datos 
+        DS Registro del segmento de datos
+        ES Registro del segmento extra
+        SS Registro del segmento de pila
+        CS Registro del segmento de código
+        BP Registro de apuntadores base
+        SI Registro índice fuente
+        DI Registro índice destino
+        SP Registro del apuntador de la pila
+        IP Registro de apuntador de siguiente instrucción
+        F Registro de banderas
 
 
 
