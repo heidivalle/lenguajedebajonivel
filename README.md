@@ -25,3 +25,32 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <h2 class= "heading to-animate">ANTES DE CONTINUAR EXPLICAREMOS EL CODIGO </h2>
 <p> Primero definimos el modelo de memoria con .model existen muchos tipos de memoria los más conocidos son el tyni que se usa para programas pequeños, el small para programas medianos y el large para programas largos. Después el tamaño de la pila que su función es un poco más avanzada y conocerán su función cuando hagan programas más complejos pero por ahora solo vean lo como el tamaño del programa, luego definimos las variables de datos con un .data que es donde están la variables  y declaramos una variable que se llame msg y lo podemos como tipo de dato que sea DB (define byte) existen más datos como el DW el DD que verán el funcionamiento después, luego ponemos él .code que es donde va el código, para más información acerca del lenguaje assembler se le recomienda leer el libro introducción al lenguaje ensamblador de peter Abel o los artículos de internet de abre los ojos al ensamblador:).</p>
 <p>Luego guardamos el programa con la extensión .asm (verificar si tiene esa extensión), guardarlo en una carpeta donde tenga el masm, tasm, tasm y tlink.  (luego en el final pronde un link para que descarguen los programas mencionados). </p>
+<p> Guarde el programa con el nombre de hola.asm. </p>
+<p> LUEGO ENTRAR AL DOS. </p>
+<p>Y ENTRAR A LA RUTA DONDE ESTÁ GUARDADO EL PROGRAMA QUE ES D:\asm. </p>
+
+
+
+<h2 class="heading to-animate"> 1.	primera compilación usando el masm(Microsoft macro assembler). </h2>
+<h3> Colocamos masm hola; y verificamos que no tenga errores.</h3>
+<p>En este caso vemos que dice 0 severe Errors(0 errores severos) y 0 warning errors(0 errores peligrosos).</p>
+<p>Algunos programas pueden tener 0 errores severos y 1 peligro, pero cuando hay 0 o n peligros el programa igual corre por q solo es una advertencia pero si tiene solo 1 error severo el programa no puede correr (eso se darán cuenta con la practica   ), luego colocamos el link hola;</p>
+<p> Por último colocamos hola </p>
+ <p> Si verifican la carpeta donde está el programa vemos que se crearon dos nuevos archivos</p>
+ 
+ 
+ 
+ 
+ 
+<h3>	COMPILACIÓN CON EL tasm(TURBO ASSEMBLER) </h3>
+<p>Se sigue el mismo procedimiento de la anterior compilación con el masm.</p>
+<p>Solo que en vez de colocar masm se coloca tasm y en vez de link tlink.</p>
+ 
+<p>Los warning y errores son los mismos que el masm</p>
+<p>Las diferencias se los dejo de tarea, pero se darán cuenta que por un pequeñísimo margen el tasm es mejor que el masm por que tiene funcione propias del compilador y ademas nos permite hacer más saltos que para el masm son errores de compilacion.</p>
+<h3>Ejecución usando el emulator 8086. </h3>
+<p>Como siempre se deja lo más fácil al final, el emu8086 es un ide tipo eclipse, codeblock etc para assembler donde primero creamos un programa en blanco seleccionando la parte de NEW.</p>
+
+
+
+
