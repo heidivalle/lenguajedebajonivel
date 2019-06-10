@@ -1,5 +1,6 @@
 # lenguajedebajonivel
 
+<h1> CUALQUIER DUDA DEJO EL WORD Y PDF CON IMAGENES </h1>
 ASSEMBLER IDE 2.0 
  <p>ENLACE PARA DESCARGAR: </p>   https://assembler-ide.programas-gratis.net/
 
