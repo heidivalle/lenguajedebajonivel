@@ -30,7 +30,7 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p>Y ENTRAR A LA RUTA DONDE ESTÁ GUARDADO EL PROGRAMA QUE ES D:\asm. </p>
 
 <h2 class="heading to-animate"> 1.	primera compilación usando el masm(Microsoft macro assembler). </h2>
-<h3> Colocamos masm hola; y verificamos que no tenga errores.</h3>
+<h3> 1. Colocamos masm hola; y verificamos que no tenga errores.</h3>
 <p>En este caso vemos que dice 0 severe Errors(0 errores severos) y 0 warning errors(0 errores peligrosos).</p>
 <p>Algunos programas pueden tener 0 errores severos y 1 peligro, pero cuando hay 0 o n peligros el programa igual corre por q solo es una advertencia pero si tiene solo 1 error severo el programa no puede correr (eso se darán cuenta con la practica   ), luego colocamos el link hola;</p>
 <p> Por último colocamos hola </p>
@@ -49,8 +49,29 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p>Lo malo del emu8086 es que no tiene todas a las interrupciones del assembler como ser rastreo de teclado modo gráfico y modo de video archivos y algunas más pero para empezar a aprender el lenguaje ensamblador en muy buena herramienta.</p>
 
 
+<h2 class="heading to-animate"> 2. REGISTROS DE LA UCP </h2>
 
+<p>La UCP tiene 14 registros internos, cada uno de 16 bits. Los primeros cuatro, AX, BX, CX, y DX son registros de uso general y también pueden ser utilizados como registros de 8 bits, para utilizarlos como tales es necesario referirse a ellos como, por ejemplo: AH y AL, que son los bytes alto (high) y bajo (low) del registro AX. Esta nomenclatura es aplicable también a los registros BX, CX y DX.</p>
+<p> Los registros son conocidos por sus nombres específicos: </p>
 
+	<div>
+											<h3>REGISTROS DE USO GENERAL</h3>
+											<p>	AX: Acumulador </p>
+											<p>	BX: Registro base </p>
+											<p>	CX: Registro contador </p>
+											<p> DX: Registro de datos </p>
+           <p>	DS Registro del segmento de datos</p>
+           <p>ES Registro del segmento extra</p>
+           <p> SS Registro del segmento de pila</p>
+           <p> CS Registro del segmento de código</p>
+           <p> BP Registro de apuntadores base</p>
+           <p> SI Registro índice fuente</p>
+           <p> DI Registro índice destino</p>
+           <p> SP Registro del apuntador de la pila</p>
+           <p><p> IP Registro de apuntador de siguiente instrucción</p>
+          <p>  F Registro de banderas</p>
+
+  </div>
 
 
 
