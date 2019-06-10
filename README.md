@@ -36,13 +36,20 @@ Que pueden descargar de forma gratuita desde su página oficial una vez descarga
 <p> Por último colocamos hola </p>
  <p> Si verifican la carpeta donde está el programa vemos que se crearon dos nuevos archivos</p>
  
- <h3>	COMPILACIÓN CON EL tasm(TURBO ASSEMBLER) </h3>
+ <h3>	2. COMPILACIÓN CON EL tasm(TURBO ASSEMBLER) </h3>
 <p>Se sigue el mismo procedimiento de la anterior compilación con el masm.</p>
 <p>Solo que en vez de colocar masm se coloca tasm y en vez de link tlink.</p>
  <p>Los warning y errores son los mismos que el masm</p>
 <p>Las diferencias se los dejo de tarea, pero se darán cuenta que por un pequeñísimo margen el tasm es mejor que el masm por que tiene funcione propias del compilador y ademas nos permite hacer más saltos que para el masm son errores de compilacion.</p>
-<h3>Ejecución usando el emulator 8086. </h3>
+<h3>3. Ejecución usando el emulator 8086. </h3>
 <p>Como siempre se deja lo más fácil al final, el emu8086 es un ide tipo eclipse, codeblock etc para assembler donde primero creamos un programa en blanco seleccionando la parte de NEW.</p>
+
+<p> Luego seleccionamos la parte que dice documento en blanco y copiamos el código para hacer corre el programa nos situamos en la flecha verde que dice emulate y le damos click para hacer correr y luego le damos Run.</p>
+  
+<p>Lo malo del emu8086 es que no tiene todas a las interrupciones del assembler como ser rastreo de teclado modo gráfico y modo de video archivos y algunas más pero para empezar a aprender el lenguaje ensamblador en muy buena herramienta.</p>
+
+
+
 
 
 
